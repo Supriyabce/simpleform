@@ -1,12 +1,12 @@
-body{
-    width: 100%;
-    background-color: rgb(223, 213, 213) ;
+body {
+  width: 100%;
+  background-color: rgb(223, 213, 213);
 }
-h2{
-color: rgb(2, 68, 17);
-text-align: center;
+h2 {
+  color: rgb(2, 68, 17);
+  text-align: center; /* it will align content to the center*/
 }
-div{
-    color: blue;
-    background-color: cornsilk;
+div {
+  color: blue;
+  background-color: cornsilk;
 }
