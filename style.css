@@ -1,12 +1,19 @@
-body{
-    width: 100%;
-    background-color: rgb(223, 213, 213) ;
-}
-h2{
-color: rgb(2, 68, 17);
-text-align: center;
-}
-div{
-    color: blue;
-    background-color: cornsilk;
-}
+.container {
+    max-width: 1200px;
+  }
+  #Rform{
+ width: 50vw;
+ height: auto;
+ margin-left: auto;
+ margin-right: auto;
+  
+ 
+  }
+
+
+  .btn { opacity: 0.8;
+      margin-right: 30px;
+  }
+  .btn:hover{
+      opacity: 1;
+  }
