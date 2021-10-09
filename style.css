@@ -1,12 +1,28 @@
 body{
+    padding: 0;
+    margin: 0;
     width: 100%;
-    background-color: rgb(223, 213, 213) ;
+    background:url("https://cdn.wallpapersafari.com/68/82/QJYyw5.png")
 }
 h2{
-color: rgb(2, 68, 17);
+
+color: blue;
 text-align: center;
+font-size: 40px;
 }
 div{
     color: blue;
-    background-color: cornsilk;
+    background-color: rgb(86, 226, 196);
+}
+form{
+    border: 2px solid black;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.textarea{
+    justify-content: center;
+  
+}
+.cen{
+    text-align: center;
 }
