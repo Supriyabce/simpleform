@@ -4,50 +4,51 @@
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form</title>
 </head>
 <body>
-   <center><h2>Registration form</h2> </center>
-   <hr>
-   <form action="backend.php">
-       <div>
-           Name : <input type="firstname" name="MyName">
-       </div>
-       <div>
-        Name : <input type="lastname" name="MyName">
-    </div>
-       <br>
-       <div>
-        Role : <input type="role" name="MyRole">
-    </div>
-    <br>
-    <div>
-        Email : <input type="email" name="MyEmail">
-    </div>
-    
-    <br>
-    <div>
-        Date of birth : <input type="date" name="MyDOB">
-    </div>
-    
-    <br>
-    <div>
-        Gender : <input type="radio" name="MyGender">Male<input type="radio" name="MyGender">Female
-    </div>
-    <br>
-    <div>
-        Mobile no : <input type="number" name="mobile">
-    </div>
-    <div>
-        <input type="submit" value="Submit Now">
-    
-        <input type="reset" value="Reset">
-    </div>
-    <div>
+    <div class="con">
+       <h1 class="reg">Registration form</h1> 
+       <br><hr>  
+        <br>
+        <form action="backend.php" class="form">
+            <div>
+                First Name : <input  class="inp" type="firstname" name="MyName">
+            </div>
+            <div>
+                <br>
+             Last Name : <input  class="inp" type="lastname" name="MyName">
+         </div>
+            <br>
+            <div>
+             Role : <input  class="inp" type="role" name="MyRole">
+         </div>
+         <br>
+         <div>
+             Email : <input  class="inp" type="email" name="MyEmail">
+         </div>
          
-        <textarea style="height:60px;width:70px">Comment:</textarea>
-
-    
-   </form>
+         <br>
+         <div>
+             Date of birth : <input  class="inp" type="date" name="MyDOB">
+         </div>
+         <br>
+         <div>
+             Gender : <input class="gen" type="radio" name="MyGender">Male <input class="gen" type="radio" name="MyGender"> Female
+         </div>
+         <br>
+         <div>
+             Mobile no : <input  class="inp" type="number" name="mobile">
+         </div>
+         <br> 
+         <textarea  class="inp text" >Comment:</textarea>
+         <div>
+             <input type="submit" class="sub but" value="Submit Now">
+             <input type="reset" class="res but" value="Reset">
+         </div>
+         <div> 
+        </form>
+    </div>
+   
 </body>
 </html>
